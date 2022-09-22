@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+    <style>
+       #login{
+        margin-top:100px ;
+        margin-bottom: 100px;
+        margin-left:300px ;
+        margin-right:100px ;
+       }
+    </style> 
+</head>
+<body>
+  <div id="login">
+
+    
+
+     
+        <dl>
+            <dt style="margin-right:90px;">User id:</dt>
+            <dd> <input type="text" name="user id"></dd>
+            <dt style="margin-right:75px;">Password:</dt>
+            <dd><input type="password" name="password"></dd>
+        </dl>
+        <a href="login.html">submit</a> 
+      
+
+   
+
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+</head>
+<body>
+   <div>
+
+    <form action="">
+        <dl>
+            <dt>Name</dt>
+            <dd><input type="text" name="name" id=""></dd>
+
+            <dt>Email</dt>
+            <dd><input type="email" name="email" id=""></dd>
+
+            <dt>Mobile Number</dt>
+            <dd><input type="tel" name="" id="mob no"></dd>
+
+            <dt>Address</dt>
+            <dd><input type="text" name="" id=""></dd>
+
+            <dt>City</dt>
+            <dd><input type="text" name="city" id=""></dd>
+
+            <dt>State</dt>
+            <dd><input type="text" name="state" id=""></dd>
+
+            <dt>Pin code</dt>
+            <dd><input type="text" name="pin" id=""></dd>
+
+            <dt>Country</dt>
+            <dd><input type="text" name="country" id=""></dd>
+
+            <dt>Company Name</dt>
+            <dd><input type="text" name="company" id=""></dd>
+
+            <dt>Occupation</dt>
+            <dd><input type="text" name="occup" id=""></dd>
+
+
+            <dt>Year of Experience</dt>
+            <dd><input type="number" name="" id="" min="0" max="30"></dd>
+
+            
+        </dl>
+    </form>
+   </div>
+</body>
+</html>
